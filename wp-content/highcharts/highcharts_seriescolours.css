@@ -1,0 +1,124 @@
+/* General */
+.highcharts-markers.inactive,
+.highcharts-series.inactive {
+	color: #535353;
+	fill: #535353;
+	stroke: #535353;
+}
+
+
+/* Number of series */
+.highcharts-color-0:not(.highcharts-tooltip) {
+	color: #e6007e;
+	fill: #e6007e;
+	stroke: #e6007e;
+}
+
+.highcharts-color-1:not(.highcharts-tooltip) {
+	color: #2daae1;
+	fill: #2daae1;
+	stroke: #2daae1;
+}
+
+.highcharts-color-2:not(.highcharts-tooltip) {
+	color: #96c11f;
+	fill: #96c11f;
+	stroke: #96c11f;
+}
+
+.highcharts-color-3:not(.highcharts-tooltip) {
+	color: #535353;
+	fill: #535353;
+	stroke: #535353;
+}
+
+
+/* Chart zones */
+.highcharts-color-0:not(.highcharts-tooltip).zone-blue {
+	fill: #2daae1;
+}
+.highcharts-color-0:not(.highcharts-tooltip).zone-grey {
+	fill: #535353;
+}
+.highcharts-color-0:not(.highcharts-tooltip).zone-pink {
+	fill: #e6007e;
+}
+
+
+/* KS2 subjects */
+.highcharts-markers.reading *,
+.highcharts-series.reading *,
+.highcharts-tooltip .reading,	/* sic */
+.highcharts-legend-item.reading *:not(text):not(tspan) {
+	color: #e6007e;
+	fill: #e6007e;
+	stroke: #e6007e;
+}
+
+.highcharts-markers.writing *,
+.highcharts-series.writing *,
+.highcharts-tooltip .writing,	/* sic */
+.highcharts-legend-item.writing *:not(text):not(tspan) {
+	color: #2daae1;
+	fill: #2daae1;
+	stroke: #2daae1;
+}
+
+.highcharts-markers.maths *,
+.highcharts-series.maths *,
+.highcharts-tooltip .maths,	/* sic */
+.highcharts-legend-item.maths *:not(text):not(tspan) {
+	color: #96c11f;
+	fill: #96c11f;
+	stroke: #96c11f;
+}
+
+
+/* Ofsted ratings */
+.highcharts-series.outstanding *,
+.highcharts-tooltip .outstanding,	/* sic */
+.highcharts-legend-item.outstanding *:not(text):not(tspan) {
+	color: #96c11f;
+	fill: #96c11f;
+	stroke: #96c11f;
+}
+
+.highcharts-series.good *,
+.highcharts-tooltip .good,	/* sic */
+.highcharts-legend-item.good *:not(text):not(tspan) {
+	color: #2daae1;
+	fill: #2daae1;
+	stroke: #2daae1;
+}
+
+.highcharts-series.requires-improvement *,
+.highcharts-tooltip .requires-improvement,	/* sic */
+.highcharts-legend-item.requires-improvement *:not(text):not(tspan) {
+	color: #efa2cc;
+	fill: #efa2cc;
+	stroke: #efa2cc;
+}
+
+.highcharts-series.inadequate *,
+.highcharts-tooltip .inadequate,	/* sic */
+.highcharts-legend-item.inadequate *:not(text):not(tspan) {
+	color: #e6007e;
+	fill: #e6007e;
+	stroke: #e6007e;
+}
+
+.highcharts-series.closed *,
+.highcharts-tooltip .closed,	/* sic */
+.highcharts-legend-item.closed *:not(text):not(tspan) {
+	color: #535353;
+	fill: #535353;
+	stroke: #535353;
+}
+
+.highcharts-series.not-inspected *,
+.highcharts-tooltip .not-inspected,	/* sic */
+.highcharts-legend-item.not-inspected *:not(text):not(tspan) {
+	color: #959595;
+	fill: #959595;
+	stroke: #959595;
+}

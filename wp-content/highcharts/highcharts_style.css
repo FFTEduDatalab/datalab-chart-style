@@ -1,0 +1,120 @@
+/* Chart */
+.fft-vis-highcharts {
+	height: 600px;
+	width: 100%;
+	max-width: 700px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+}
+
+.fft-vis-highcharts.ie {
+	font-style: italic;
+	color: white;
+	background-color: rgb(83,83,83);
+}
+
+/* Markers */
+.banded-scatter .highcharts-markers * {
+	opacity: 0.5
+}
+
+
+/* Plotlines at x=0, y=0 */
+.highcharts-plot-line {
+    stroke-width: 2px;
+	z-index: 3;
+}
+
+
+/* Cursors */
+.highcharts-series,
+.highcharts-markers {
+	cursor: pointer;
+}
+
+
+/* Legend */
+.highcharts-legend-item > text {
+	font-weight: normal;
+}
+
+.highcharts-legend-item.highcharts-bar-series > text {
+	cursor: default;
+}
+
+.highcharts-legend-item.highcharts-scatter-series path.highcharts-graph {		/* For scatter plots, draw legend items as dots only, not dots with connecting lines */
+	display: none
+}
+
+
+/* Tooltips */
+.highcharts-tooltip {
+	stroke: #f7f7f7;		/* Border color */
+	line-height: 150%;
+	color: #535353;
+}
+
+.highcharts-tooltip span {
+	font-size: 1em;
+}
+
+.highcharts-tooltip .header {
+	font-weight: bold;
+}
+
+
+/* Text */
+.highcharts-container,
+.highcharts-axis-labels,
+.highcharts-axis-title,
+.highcharts-legend-item > text {
+	font-family: 'Avenir Next W01', 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, sans-serif;
+	fill: #535353;
+}
+
+.highcharts-axis-labels {
+	font-size: 1em;
+}
+
+.highcharts-title {
+	font-size: 1.8em;
+	font-weight: 600;
+	color: #535353;
+	fill: #535353;
+}
+
+.highcharts-subtitle {
+	font-size: 1.4em;
+	font-weight: 600;
+	fill: #535353;
+}
+
+
+/* Notes */
+.highcharts-credits,
+.highcharts-credits:hover {		/* Remove text zoom on hover */
+    cursor: default;
+    fill: #535353;
+    font-size: 0.75em;
+}
+
+.highcharts-credits .header {
+	text-decoration: underline;
+}
+
+.highcharts-credits .highcharts-anchor {
+	fill: rgb(230,0,126);
+	text-decoration: underline;
+}
+
+
+/* Logo */
+.highcharts-container image {
+	cursor: pointer;
+}
+
+
+/* Scrollbar */
+.highcharts-scrollbar-arrow {
+	display: none;
+}

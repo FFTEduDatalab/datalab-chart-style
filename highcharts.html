@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<link rel="icon" href="data:,">
+	<link rel="stylesheet" type="text/css" href="local.css">
+	<link rel="stylesheet" type="text/css" href="/wp-content/charts.css">
+	<link rel="stylesheet" type="text/css" href="https://code.highcharts.com/6/css/highcharts.css">
+	<link rel="stylesheet" type="text/css" href="/wp-content/highcharts/highcharts_style.css">
+	<link rel="stylesheet" type="text/css" href="/wp-content/highcharts/highcharts_seriescolours.css">
+	<link rel="stylesheet" type="text/css" href="//fast.fonts.net/cssapi/28741cf9-5a4e-4d58-86d0-44c7003fd4e3.css"/>
+	<link rel="stylesheet" type="text/css" href="/wp-content/highcharts/2011_earlyliteracy/style_earlyliteracy.css">		<!-- XXX -->
+</head>
+<body>
+	<script src="https://code.highcharts.com/6/js/highcharts.js"></script><!--
+	--><script src="https://code.highcharts.com/6/modules/exporting.js"></script><!--
+	--><script src="https://code.highcharts.com/6/modules/export-data.js"></script><!--
+	--><script src="https://code.highcharts.com/6/modules/series-label.js"></script><!--
+	--><script src="https://cdn.jsdelivr.net/npm/lodash@4.17.11/lodash.min.js"></script><!--
+	--><script src="/wp-content/highcharts/highcharts_options.js"></script><!--
+	--><script src="/wp-content/highcharts/2011_earlyliteracy/chart_earlyliteracy.js"></script><!--		XXX
+	--><noscript>A chart or charts in this post require JavaScript, which is turned off in your browser.</noscript>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<select id="gender-selector" class="dropdown-selector" onchange="updateGenderSelector(value)">
+		<option selected value='F'>Female</option>
+		<option value='M'>Male</option>
+	</select><!--
+	--><select id="disadvantage-selector" class="dropdown-selector right" onchange="updateDisadvantageSelector(value)">
+		<option selected value='1'>Disadvantaged</option>
+		<option value='0'>Non-disadvantaged</option>
+	</select><!--
+	--><select id="eal-selector" class="dropdown-selector right" onchange="updateEALSelector(value)">
+		<option selected value='1'>EAL</option>
+		<option value='0'>Non-EAL</option>
+	</select>
+	<div id="ch1" class="fft-vis-highcharts early-literacy"></div>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></body>
+</body>

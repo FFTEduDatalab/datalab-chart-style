@@ -1,0 +1,33 @@
+.leaflet-map {
+	height: 700px;
+	width: 700px;
+}
+
+.leaflet-container.leaflet-map {		/* needs to be more specific than what's in style.css */
+	font-family: 'Avenir Next W01', 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, sans-serif;
+	margin-bottom: 20px;
+}
+
+.leaflet-container .info {
+    padding: 6px 8px;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+.leaflet-container .leaflet-strong {
+    font-weight: 700;
+}
+
+.leaflet-container .legend {
+    line-height: 12px;
+    color: #555;
+}
+
+.leaflet-container .legend i {
+    width: 10px;
+    height: 10px;
+	border-radius: 50%;
+    float: left;
+    margin-right: 8px;
+}

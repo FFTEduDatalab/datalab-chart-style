@@ -33,6 +33,14 @@
 }
 
 
+/* Alternative colour */
+.highcharts-color-9:not(.highcharts-tooltip) {
+	color: #c11f96;
+	fill: #c11f96;
+	stroke: #c11f96;
+}
+
+
 /* Chart zones */
 .highcharts-color-0:not(.highcharts-tooltip).zone-blue {
 	fill: #2daae1;
